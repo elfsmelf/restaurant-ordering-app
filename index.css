@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+}
+
+.hero-section {
+  padding: 30px;
+  background-image: url("/images/bg\ img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  min-width: 600px;
+  min-height: 167px;
+  color: white;
+}
+
+h1 {
+  font-size: 39px;
+  font-family: "Smythe", "Times New Roman", serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: "Smythe", "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: "Smythe", "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Smythe", "Times New Roman", serif;
+  font-weight: 400;
+}
+
+.order-title {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 60px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.left-content {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.menu-emoji {
+  font-size: 78px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-ingredients {
+  color: #8b8b8b;
+}
+
+.menu-price {
+  font-size: 20px;
+}
+
+.plus-button {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 32px;
+  color: #3c3c3c;
+  border: solid, #dedede, 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.plus-button:hover {
+  background-color: #efefef;
+}
+
+.divider {
+  width: 90%;
+
+  color: #d2d2d2;
+}
+
+.remove-button {
+  border: none;
+  background-color: white;
+  color: #bbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  cursor: pointer;
+  height: 30px;
+  margin: 10;
+}
+
+.order-price {
+  font-size: 20px;
+}
+
+.order-divider {
+  width: 90%;
+  border-width: 2px;
+  color: black;
+}
+
+.order-item-title {
+  display: flex;
+  margin: 10;
+}
+
+.complete-order-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40 0px;
+}
+
+.complete-order-button {
+  border: none;
+  background-color: #16db99;
+  width: 90%;
+  height: 60px;
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 100;
+  top: 400;
+  width: 524px;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: white;
+  box-shadow: 0 0 20px 20px rgba(81, 81, 81, 0.2);
+}
+
+.modal-content {
+  padding: 30px;
+}
+
+.pay-button {
+  border: none;
+  background-color: #16db99;
+  width: 100%;
+  height: 60px;
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 10px 0 0px 0;
+}
+
+.modal-title {
+  font-family: Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  padding-left: 10px;
+  font-family: Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.order-notification {
+  background-color: #ecfdf5;
+  width: 90%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.order-notification-text {
+  color: #065f46;
+  font-weight: 400;
+  font-size: 32px;
+}
